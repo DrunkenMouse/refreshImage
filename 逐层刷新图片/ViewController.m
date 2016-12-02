@@ -7,18 +7,35 @@
 //
 
 #import "ViewController.h"
+#import "ShowImage.h"
 
 @interface ViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ViewController{
+    
+    UIImage *img;
+    
+    IBOutlet ShowImage *showImage;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)changeButton:(UIButton *)sender {
+    
+    if (sender.tag == 1) {
+        showImage.image = [UIImage imageNamed:@"1"];
+        sender.tag = 2;
+    } else {
+        sender.tag = 1;
+        showImage.image = [UIImage imageNamed:@"2"];
+    }
+    
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

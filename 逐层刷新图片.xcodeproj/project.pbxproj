@@ -15,6 +15,7 @@
 		16E489671DE7D0BA008FCC3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E489651DE7D0BA008FCC3C /* LaunchScreen.storyboard */; };
 		16E489721DE7D0BA008FCC3C /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E489711DE7D0BA008FCC3C /* ______Tests.m */; };
 		16E4897D1DE7D0BA008FCC3C /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E4897C1DE7D0BA008FCC3C /* ______UITests.m */; };
+		16E4898C1DE7D167008FCC3C /* ShowImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E4898B1DE7D167008FCC3C /* ShowImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		16E489781DE7D0BA008FCC3C /* 逐层刷新图片UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "逐层刷新图片UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E4897C1DE7D0BA008FCC3C /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		16E4897E1DE7D0BA008FCC3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16E4898A1DE7D167008FCC3C /* ShowImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImage.h; sourceTree = "<group>"; };
+		16E4898B1DE7D167008FCC3C /* ShowImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				16E4895B1DE7D0BA008FCC3C /* AppDelegate.m */,
 				16E4895D1DE7D0BA008FCC3C /* ViewController.h */,
 				16E4895E1DE7D0BA008FCC3C /* ViewController.m */,
+				16E4898A1DE7D167008FCC3C /* ShowImage.h */,
+				16E4898B1DE7D167008FCC3C /* ShowImage.m */,
 				16E489601DE7D0BA008FCC3C /* Main.storyboard */,
 				16E489631DE7D0BA008FCC3C /* Assets.xcassets */,
 				16E489651DE7D0BA008FCC3C /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				16E4895F1DE7D0BA008FCC3C /* ViewController.m in Sources */,
 				16E4895C1DE7D0BA008FCC3C /* AppDelegate.m in Sources */,
+				16E4898C1DE7D167008FCC3C /* ShowImage.m in Sources */,
 				16E489591DE7D0B9008FCC3C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
